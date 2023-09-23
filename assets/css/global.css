@@ -4,17 +4,28 @@
 }
 
 body {
-    background-color: #f6f8fc;
+
+    background-image: linear-gradient(to right,rgb(233, 99, 99),rgb(102, 11, 11));
 }
 
 .content{
-    padding: 1 rem;
+    width: 100vw;
+    height: 100%;
+    /*alteração */
+    padding: 1rem;
     background-color: #fff;
-    height: 100vh;
 
 }
 
-@media screen and (min-width: 768px) {
+.content h1 {
+    text-align: center;
+    background-image: linear-gradient(to right,rgb(233, 99, 99),rgb(102, 11, 11));
+    color: #fff;
+    border-radius: .7rem;
+    padding: .25rem;
+}
+
+@media screen and (min-width: 750px) {
     .content {
         max-width: 992px;
         height: auto;
